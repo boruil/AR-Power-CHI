@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CAD0B11C528BA300A014BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B01C528BA300A014BD /* AppDelegate.swift */; };
+		18CAD0B31C528BA300A014BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B21C528BA300A014BD /* ViewController.swift */; };
+		18CAD0B61C528BA300A014BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0B41C528BA300A014BD /* Main.storyboard */; };
+		18CAD0B91C528BA300A014BD /* AR_Power.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B71C528BA300A014BD /* AR_Power.xcdatamodeld */; };
+		18CAD0BB1C528BA300A014BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0BA1C528BA300A014BD /* Assets.xcassets */; };
+		18CAD0BE1C528BA300A014BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */; };
+		18CAD0C91C528BA300A014BD /* AR_PowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0C81C528BA300A014BD /* AR_PowerTests.swift */; };
+		18CAD0D41C528BA300A014BD /* AR_PowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0D31C528BA300A014BD /* AR_PowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CAD0C51C528BA300A014BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CAD0A51C528BA300A014BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CAD0AC1C528BA300A014BD;
+			remoteInfo = "AR-Power";
+		};
+		18CAD0D01C528BA300A014BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CAD0A51C528BA300A014BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CAD0AC1C528BA300A014BD;
+			remoteInfo = "AR-Power";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CAD0AD1C528BA300A014BD /* AR-Power.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Power.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CAD0B01C528BA300A014BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CAD0B21C528BA300A014BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CAD0B51C528BA300A014BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CAD0B81C528BA300A014BD /* AR_Power.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Power.xcdatamodel; sourceTree = "<group>"; };
+		18CAD0BA1C528BA300A014BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CAD0BD1C528BA300A014BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CAD0BF1C528BA300A014BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CAD0C41C528BA300A014BD /* AR-PowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-PowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CAD0C81C528BA300A014BD /* AR_PowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_PowerTests.swift; sourceTree = "<group>"; };
+		18CAD0CA1C528BA300A014BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CAD0CF1C528BA300A014BD /* AR-PowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-PowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CAD0D31C528BA300A014BD /* AR_PowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_PowerUITests.swift; sourceTree = "<group>"; };
+		18CAD0D51C528BA300A014BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CAD0AA1C528BA300A014BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0C11C528BA300A014BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0CC1C528BA300A014BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CAD0A41C528BA300A014BD = {
+			isa = PBXGroup;
+			children = (
+				18CAD0AF1C528BA300A014BD /* AR-Power */,
+				18CAD0C71C528BA300A014BD /* AR-PowerTests */,
+				18CAD0D21C528BA300A014BD /* AR-PowerUITests */,
+				18CAD0AE1C528BA300A014BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CAD0AE1C528BA300A014BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD0AD1C528BA300A014BD /* AR-Power.app */,
+				18CAD0C41C528BA300A014BD /* AR-PowerTests.xctest */,
+				18CAD0CF1C528BA300A014BD /* AR-PowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CAD0AF1C528BA300A014BD /* AR-Power */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD0B01C528BA300A014BD /* AppDelegate.swift */,
+				18CAD0B21C528BA300A014BD /* ViewController.swift */,
+				18CAD0B41C528BA300A014BD /* Main.storyboard */,
+				18CAD0BA1C528BA300A014BD /* Assets.xcassets */,
+				18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */,
+				18CAD0BF1C528BA300A014BD /* Info.plist */,
+				18CAD0B71C528BA300A014BD /* AR_Power.xcdatamodeld */,
+			);
+			path = "AR-Power";
+			sourceTree = "<group>";
+		};
+		18CAD0C71C528BA300A014BD /* AR-PowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD0C81C528BA300A014BD /* AR_PowerTests.swift */,
+				18CAD0CA1C528BA300A014BD /* Info.plist */,
+			);
+			path = "AR-PowerTests";
+			sourceTree = "<group>";
+		};
+		18CAD0D21C528BA300A014BD /* AR-PowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD0D31C528BA300A014BD /* AR_PowerUITests.swift */,
+				18CAD0D51C528BA300A014BD /* Info.plist */,
+			);
+			path = "AR-PowerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CAD0AC1C528BA300A014BD /* AR-Power */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CAD0D81C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-Power" */;
+			buildPhases = (
+				18CAD0A91C528BA300A014BD /* Sources */,
+				18CAD0AA1C528BA300A014BD /* Frameworks */,
+				18CAD0AB1C528BA300A014BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-Power";
+			productName = "AR-Power";
+			productReference = 18CAD0AD1C528BA300A014BD /* AR-Power.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CAD0C31C528BA300A014BD /* AR-PowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CAD0DB1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerTests" */;
+			buildPhases = (
+				18CAD0C01C528BA300A014BD /* Sources */,
+				18CAD0C11C528BA300A014BD /* Frameworks */,
+				18CAD0C21C528BA300A014BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CAD0C61C528BA300A014BD /* PBXTargetDependency */,
+			);
+			name = "AR-PowerTests";
+			productName = "AR-PowerTests";
+			productReference = 18CAD0C41C528BA300A014BD /* AR-PowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CAD0CE1C528BA300A014BD /* AR-PowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CAD0DE1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerUITests" */;
+			buildPhases = (
+				18CAD0CB1C528BA300A014BD /* Sources */,
+				18CAD0CC1C528BA300A014BD /* Frameworks */,
+				18CAD0CD1C528BA300A014BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CAD0D11C528BA300A014BD /* PBXTargetDependency */,
+			);
+			name = "AR-PowerUITests";
+			productName = "AR-PowerUITests";
+			productReference = 18CAD0CF1C528BA300A014BD /* AR-PowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CAD0A51C528BA300A014BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Borui \"Andy\" Li";
+				TargetAttributes = {
+					18CAD0AC1C528BA300A014BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18CAD0C31C528BA300A014BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18CAD0AC1C528BA300A014BD;
+					};
+					18CAD0CE1C528BA300A014BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18CAD0AC1C528BA300A014BD;
+					};
+				};
+			};
+			buildConfigurationList = 18CAD0A81C528BA300A014BD /* Build configuration list for PBXProject "AR-Power" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CAD0A41C528BA300A014BD;
+			productRefGroup = 18CAD0AE1C528BA300A014BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CAD0AC1C528BA300A014BD /* AR-Power */,
+				18CAD0C31C528BA300A014BD /* AR-PowerTests */,
+				18CAD0CE1C528BA300A014BD /* AR-PowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CAD0AB1C528BA300A014BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CAD0BE1C528BA300A014BD /* LaunchScreen.storyboard in Resources */,
+				18CAD0BB1C528BA300A014BD /* Assets.xcassets in Resources */,
+				18CAD0B61C528BA300A014BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0C21C528BA300A014BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0CD1C528BA300A014BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CAD0A91C528BA300A014BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CAD0B31C528BA300A014BD /* ViewController.swift in Sources */,
+				18CAD0B91C528BA300A014BD /* AR_Power.xcdatamodeld in Sources */,
+				18CAD0B11C528BA300A014BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0C01C528BA300A014BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CAD0C91C528BA300A014BD /* AR_PowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CAD0CB1C528BA300A014BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CAD0D41C528BA300A014BD /* AR_PowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CAD0C61C528BA300A014BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CAD0AC1C528BA300A014BD /* AR-Power */;
+			targetProxy = 18CAD0C51C528BA300A014BD /* PBXContainerItemProxy */;
+		};
+		18CAD0D11C528BA300A014BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CAD0AC1C528BA300A014BD /* AR-Power */;
+			targetProxy = 18CAD0D01C528BA300A014BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CAD0B41C528BA300A014BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CAD0B51C528BA300A014BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CAD0BD1C528BA300A014BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CAD0D61C528BA300A014BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CAD0D71C528BA300A014BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CAD0D91C528BA300A014BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AR-Power/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-Power";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CAD0DA1C528BA300A014BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AR-Power/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-Power";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CAD0DC1C528BA300A014BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AR-PowerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-PowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Power.app/AR-Power";
+			};
+			name = Debug;
+		};
+		18CAD0DD1C528BA300A014BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AR-PowerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-PowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Power.app/AR-Power";
+			};
+			name = Release;
+		};
+		18CAD0DF1C528BA300A014BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AR-PowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-PowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AR-Power";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18CAD0E01C528BA300A014BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AR-PowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-PowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AR-Power";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CAD0A81C528BA300A014BD /* Build configuration list for PBXProject "AR-Power" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CAD0D61C528BA300A014BD /* Debug */,
+				18CAD0D71C528BA300A014BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CAD0D81C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-Power" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CAD0D91C528BA300A014BD /* Debug */,
+				18CAD0DA1C528BA300A014BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CAD0DB1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CAD0DC1C528BA300A014BD /* Debug */,
+				18CAD0DD1C528BA300A014BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CAD0DE1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CAD0DF1C528BA300A014BD /* Debug */,
+				18CAD0E01C528BA300A014BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CAD0B71C528BA300A014BD /* AR_Power.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CAD0B81C528BA300A014BD /* AR_Power.xcdatamodel */,
+			);
+			currentVersion = 18CAD0B81C528BA300A014BD /* AR_Power.xcdatamodel */;
+			path = AR_Power.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CAD0A51C528BA300A014BD /* Project object */;
+}
