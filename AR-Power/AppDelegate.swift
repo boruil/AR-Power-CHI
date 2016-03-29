@@ -13,6 +13,12 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func applicationDidFinishLaunching(application: UIApplication) {
+        if !NSUserDefaults.standardUserDefaults().boolForKey("TermsAccepted") {
+            NSUserDefaults.standardUserDefaults().setBool(false, forKey: "TermsAccepted")
+        }
+    } 
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

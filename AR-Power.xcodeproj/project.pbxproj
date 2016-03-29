@@ -7,17 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18069FC01C676AFB00D71C57 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069FBF1C676AFB00D71C57 /* UserViewController.swift */; };
+		18069FC41C6776D000D71C57 /* SQGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069FC31C6776D000D71C57 /* SQGraphViewController.swift */; };
+		18069FC61C6776F500D71C57 /* HCGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069FC51C6776F500D71C57 /* HCGraphViewController.swift */; };
+		18069FCC1C67986700D71C57 /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069FCB1C67986700D71C57 /* PictureView.swift */; };
+		18137FDE1C57DCCA00CDFA23 /* WalkingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18137FDD1C57DCCA00CDFA23 /* WalkingStepsViewController.swift */; };
+		182BE05E1C72000D00F95F90 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182BE05B1C71FFFC00F95F90 /* ResearchKit.framework */; };
+		182BE05F1C72000D00F95F90 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182BE05B1C71FFFC00F95F90 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		182BE0631C72002900F95F90 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182BE0621C72002900F95F90 /* HealthKit.framework */; };
+		184F5F5E1C52936900DA4876 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F5A1C52936900DA4876 /* MasterViewController.swift */; };
+		184F5F5F1C52936900DA4876 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F5B1C52936900DA4876 /* HealthDataViewController.swift */; };
+		184F5F601C52936900DA4876 /* DietTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F5C1C52936900DA4876 /* DietTableViewController.swift */; };
+		184F5F611C52936900DA4876 /* AddDietController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F5D1C52936900DA4876 /* AddDietController.swift */; };
+		184F5F671C5293C600DA4876 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F651C5293C600DA4876 /* DateCell.swift */; };
+		184F5F681C5293C600DA4876 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F661C5293C600DA4876 /* NumberCell.swift */; };
+		184F5F6A1C5293DC00DA4876 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F5F691C5293DC00DA4876 /* HealthManager.swift */; };
+		184F5F731C52BBFD00DA4876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F5F721C52BBFD00DA4876 /* Main.storyboard */; };
 		18CAD0B11C528BA300A014BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B01C528BA300A014BD /* AppDelegate.swift */; };
 		18CAD0B31C528BA300A014BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B21C528BA300A014BD /* ViewController.swift */; };
-		18CAD0B61C528BA300A014BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0B41C528BA300A014BD /* Main.storyboard */; };
 		18CAD0B91C528BA300A014BD /* AR_Power.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0B71C528BA300A014BD /* AR_Power.xcdatamodeld */; };
-		18CAD0BB1C528BA300A014BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0BA1C528BA300A014BD /* Assets.xcassets */; };
-		18CAD0BE1C528BA300A014BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */; };
 		18CAD0C91C528BA300A014BD /* AR_PowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0C81C528BA300A014BD /* AR_PowerTests.swift */; };
 		18CAD0D41C528BA300A014BD /* AR_PowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0D31C528BA300A014BD /* AR_PowerUITests.swift */; };
+		18CAD0F61C528D4000A014BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0F51C528D4000A014BD /* LaunchScreen.xib */; };
+		18CAD0F81C528DA200A014BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CAD0F71C528DA200A014BD /* Assets.xcassets */; };
+		18CAD0FF1C528DAB00A014BD /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0F91C528DAB00A014BD /* ConsentDocument.swift */; };
+		18CAD1001C528DAB00A014BD /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0FA1C528DAB00A014BD /* ConsentTask.swift */; };
+		18CAD1011C528DAB00A014BD /* SurveyTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0FB1C528DAB00A014BD /* SurveyTaskController.swift */; };
+		18CAD1021C528DAB00A014BD /* SurveyTextTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0FC1C528DAB00A014BD /* SurveyTextTask1.swift */; };
+		18CAD1031C528DAB00A014BD /* SurveyImageTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0FD1C528DAB00A014BD /* SurveyImageTask1.swift */; };
+		18CAD1041C528DAB00A014BD /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD0FE1C528DAB00A014BD /* MicrophoneTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		182BE05A1C71FFFC00F95F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		182BE05C1C71FFFC00F95F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		182BE0601C72000D00F95F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 		18CAD0C51C528BA300A014BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18CAD0A51C528BA300A014BD /* Project object */;
@@ -34,14 +76,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		184F5F561C528F0900DA4876 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				182BE05F1C72000D00F95F90 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		18CAD0AD1C528BA300A014BD /* AR-Power.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Power.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18069FBF1C676AFB00D71C57 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		18069FC31C6776D000D71C57 /* SQGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQGraphViewController.swift; sourceTree = "<group>"; };
+		18069FC51C6776F500D71C57 /* HCGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCGraphViewController.swift; sourceTree = "<group>"; };
+		18069FCB1C67986700D71C57 /* PictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		18137FDD1C57DCCA00CDFA23 /* WalkingStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingStepsViewController.swift; sourceTree = "<group>"; };
+		182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		182BE0621C72002900F95F90 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		184F5F5A1C52936900DA4876 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		184F5F5B1C52936900DA4876 /* HealthDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		184F5F5C1C52936900DA4876 /* DietTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietTableViewController.swift; sourceTree = "<group>"; };
+		184F5F5D1C52936900DA4876 /* AddDietController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDietController.swift; sourceTree = "<group>"; };
+		184F5F651C5293C600DA4876 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		184F5F661C5293C600DA4876 /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		184F5F691C5293DC00DA4876 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		184F5F6F1C529B9B00DA4876 /* AR-Power.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AR-Power.entitlements"; sourceTree = "<group>"; };
+		184F5F721C52BBFD00DA4876 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18CAD0AD1C528BA300A014BD /* CHI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CAD0B01C528BA300A014BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CAD0B21C528BA300A014BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18CAD0B51C528BA300A014BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CAD0B81C528BA300A014BD /* AR_Power.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Power.xcdatamodel; sourceTree = "<group>"; };
-		18CAD0BA1C528BA300A014BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18CAD0BD1C528BA300A014BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CAD0BF1C528BA300A014BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CAD0C41C528BA300A014BD /* AR-PowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-PowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CAD0C81C528BA300A014BD /* AR_PowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_PowerTests.swift; sourceTree = "<group>"; };
@@ -49,6 +118,14 @@
 		18CAD0CF1C528BA300A014BD /* AR-PowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-PowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CAD0D31C528BA300A014BD /* AR_PowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_PowerUITests.swift; sourceTree = "<group>"; };
 		18CAD0D51C528BA300A014BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CAD0F51C528D4000A014BD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		18CAD0F71C528DA200A014BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CAD0F91C528DAB00A014BD /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		18CAD0FA1C528DAB00A014BD /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		18CAD0FB1C528DAB00A014BD /* SurveyTaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTaskController.swift; sourceTree = "<group>"; };
+		18CAD0FC1C528DAB00A014BD /* SurveyTextTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTextTask1.swift; sourceTree = "<group>"; };
+		18CAD0FD1C528DAB00A014BD /* SurveyImageTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyImageTask1.swift; sourceTree = "<group>"; };
+		18CAD0FE1C528DAB00A014BD /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182BE0631C72002900F95F90 /* HealthKit.framework in Frameworks */,
+				182BE05E1C72000D00F95F90 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +155,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180B65AF1C69C5D400366987 /* consent */ = {
+			isa = PBXGroup;
+			children = (
+				18CAD0F91C528DAB00A014BD /* ConsentDocument.swift */,
+				18CAD0FA1C528DAB00A014BD /* ConsentTask.swift */,
+			);
+			name = consent;
+			sourceTree = "<group>";
+		};
+		182BE0551C71FFFC00F95F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182BE05B1C71FFFC00F95F90 /* ResearchKit.framework */,
+				182BE05D1C71FFFC00F95F90 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184F5F631C52937B00DA4876 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				184F5F5A1C52936900DA4876 /* MasterViewController.swift */,
+				184F5F5B1C52936900DA4876 /* HealthDataViewController.swift */,
+				184F5F5C1C52936900DA4876 /* DietTableViewController.swift */,
+				184F5F5D1C52936900DA4876 /* AddDietController.swift */,
+				18137FDD1C57DCCA00CDFA23 /* WalkingStepsViewController.swift */,
+				18069FBF1C676AFB00D71C57 /* UserViewController.swift */,
+				18069FC31C6776D000D71C57 /* SQGraphViewController.swift */,
+				18069FC51C6776F500D71C57 /* HCGraphViewController.swift */,
+				18069FCB1C67986700D71C57 /* PictureView.swift */,
+				18CAD0FB1C528DAB00A014BD /* SurveyTaskController.swift */,
+				18CAD0B21C528BA300A014BD /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		184F5F641C52938800DA4876 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				184F5F651C5293C600DA4876 /* DateCell.swift */,
+				184F5F661C5293C600DA4876 /* NumberCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		18CAD0A41C528BA300A014BD = {
 			isa = PBXGroup;
 			children = (
+				182BE0621C72002900F95F90 /* HealthKit.framework */,
+				182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */,
 				18CAD0AF1C528BA300A014BD /* AR-Power */,
 				18CAD0C71C528BA300A014BD /* AR-PowerTests */,
 				18CAD0D21C528BA300A014BD /* AR-PowerUITests */,
@@ -89,7 +215,7 @@
 		18CAD0AE1C528BA300A014BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18CAD0AD1C528BA300A014BD /* AR-Power.app */,
+				18CAD0AD1C528BA300A014BD /* CHI.app */,
 				18CAD0C41C528BA300A014BD /* AR-PowerTests.xctest */,
 				18CAD0CF1C528BA300A014BD /* AR-PowerUITests.xctest */,
 			);
@@ -99,13 +225,20 @@
 		18CAD0AF1C528BA300A014BD /* AR-Power */ = {
 			isa = PBXGroup;
 			children = (
+				184F5F6F1C529B9B00DA4876 /* AR-Power.entitlements */,
+				184F5F641C52938800DA4876 /* Cells */,
+				184F5F631C52937B00DA4876 /* View Controllers */,
 				18CAD0B01C528BA300A014BD /* AppDelegate.swift */,
-				18CAD0B21C528BA300A014BD /* ViewController.swift */,
-				18CAD0B41C528BA300A014BD /* Main.storyboard */,
-				18CAD0BA1C528BA300A014BD /* Assets.xcassets */,
-				18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */,
+				184F5F691C5293DC00DA4876 /* HealthManager.swift */,
+				18CAD0F51C528D4000A014BD /* LaunchScreen.xib */,
+				18CAD0F71C528DA200A014BD /* Assets.xcassets */,
 				18CAD0BF1C528BA300A014BD /* Info.plist */,
 				18CAD0B71C528BA300A014BD /* AR_Power.xcdatamodeld */,
+				180B65AF1C69C5D400366987 /* consent */,
+				18CAD0FC1C528DAB00A014BD /* SurveyTextTask1.swift */,
+				18CAD0FD1C528DAB00A014BD /* SurveyImageTask1.swift */,
+				18CAD0FE1C528DAB00A014BD /* MicrophoneTask.swift */,
+				184F5F721C52BBFD00DA4876 /* Main.storyboard */,
 			);
 			path = "AR-Power";
 			sourceTree = "<group>";
@@ -138,14 +271,16 @@
 				18CAD0A91C528BA300A014BD /* Sources */,
 				18CAD0AA1C528BA300A014BD /* Frameworks */,
 				18CAD0AB1C528BA300A014BD /* Resources */,
+				184F5F561C528F0900DA4876 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				182BE0611C72000D00F95F90 /* PBXTargetDependency */,
 			);
 			name = "AR-Power";
 			productName = "AR-Power";
-			productReference = 18CAD0AD1C528BA300A014BD /* AR-Power.app */;
+			productReference = 18CAD0AD1C528BA300A014BD /* CHI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18CAD0C31C528BA300A014BD /* AR-PowerTests */ = {
@@ -190,12 +325,25 @@
 		18CAD0A51C528BA300A014BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Borui \"Andy\" Li";
 				TargetAttributes = {
 					18CAD0AC1C528BA300A014BD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ECZCXD3J7C;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					18CAD0C31C528BA300A014BD = {
 						CreatedOnToolsVersion = 7.2;
@@ -218,6 +366,12 @@
 			mainGroup = 18CAD0A41C528BA300A014BD;
 			productRefGroup = 18CAD0AE1C528BA300A014BD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 182BE0551C71FFFC00F95F90 /* Products */;
+					ProjectRef = 182BE0541C71FFFC00F95F90 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				18CAD0AC1C528BA300A014BD /* AR-Power */,
@@ -227,14 +381,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		182BE05B1C71FFFC00F95F90 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 182BE05A1C71FFFC00F95F90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		182BE05D1C71FFFC00F95F90 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 182BE05C1C71FFFC00F95F90 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		18CAD0AB1C528BA300A014BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CAD0BE1C528BA300A014BD /* LaunchScreen.storyboard in Resources */,
-				18CAD0BB1C528BA300A014BD /* Assets.xcassets in Resources */,
-				18CAD0B61C528BA300A014BD /* Main.storyboard in Resources */,
+				184F5F731C52BBFD00DA4876 /* Main.storyboard in Resources */,
+				18CAD0F61C528D4000A014BD /* LaunchScreen.xib in Resources */,
+				18CAD0F81C528DA200A014BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +430,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184F5F5E1C52936900DA4876 /* MasterViewController.swift in Sources */,
 				18CAD0B31C528BA300A014BD /* ViewController.swift in Sources */,
+				18CAD0FF1C528DAB00A014BD /* ConsentDocument.swift in Sources */,
+				18CAD1041C528DAB00A014BD /* MicrophoneTask.swift in Sources */,
+				18CAD1021C528DAB00A014BD /* SurveyTextTask1.swift in Sources */,
+				18069FCC1C67986700D71C57 /* PictureView.swift in Sources */,
+				18CAD1011C528DAB00A014BD /* SurveyTaskController.swift in Sources */,
+				18137FDE1C57DCCA00CDFA23 /* WalkingStepsViewController.swift in Sources */,
+				18069FC61C6776F500D71C57 /* HCGraphViewController.swift in Sources */,
+				184F5F5F1C52936900DA4876 /* HealthDataViewController.swift in Sources */,
+				184F5F601C52936900DA4876 /* DietTableViewController.swift in Sources */,
+				184F5F611C52936900DA4876 /* AddDietController.swift in Sources */,
+				18CAD1001C528DAB00A014BD /* ConsentTask.swift in Sources */,
 				18CAD0B91C528BA300A014BD /* AR_Power.xcdatamodeld in Sources */,
+				18CAD1031C528DAB00A014BD /* SurveyImageTask1.swift in Sources */,
 				18CAD0B11C528BA300A014BD /* AppDelegate.swift in Sources */,
+				18069FC41C6776D000D71C57 /* SQGraphViewController.swift in Sources */,
+				184F5F671C5293C600DA4876 /* DateCell.swift in Sources */,
+				184F5F681C5293C600DA4876 /* NumberCell.swift in Sources */,
+				184F5F6A1C5293DC00DA4876 /* HealthManager.swift in Sources */,
+				18069FC01C676AFB00D71C57 /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +473,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		182BE0611C72000D00F95F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 182BE0601C72000D00F95F90 /* PBXContainerItemProxy */;
+		};
 		18CAD0C61C528BA300A014BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 18CAD0AC1C528BA300A014BD /* AR-Power */;
@@ -295,25 +489,6 @@
 			targetProxy = 18CAD0D01C528BA300A014BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18CAD0B41C528BA300A014BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18CAD0B51C528BA300A014BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18CAD0BC1C528BA300A014BD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18CAD0BD1C528BA300A014BD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18CAD0D61C528BA300A014BD /* Debug */ = {
@@ -352,9 +527,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a0c97c8e-6dd5-46de-bd87-b7aa4c27e083";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -390,8 +566,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a0c97c8e-6dd5-46de-bd87-b7aa4c27e083";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,22 +577,32 @@
 		18CAD0D91C528BA300A014BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = "AR-Power/AR-Power.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "AR-Power/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-Power";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boruili.CHI;
+				PRODUCT_NAME = CHI;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		18CAD0DA1C528BA300A014BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = "AR-Power/AR-Power.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "AR-Power/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.boruili.AR-Power";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boruili.CHI;
+				PRODUCT_NAME = CHI;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +673,7 @@
 				18CAD0DA1C528BA300A014BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CAD0DB1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +682,7 @@
 				18CAD0DD1C528BA300A014BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CAD0DE1C528BA300A014BD /* Build configuration list for PBXNativeTarget "AR-PowerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +691,7 @@
 				18CAD0E01C528BA300A014BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
